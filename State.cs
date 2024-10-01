@@ -101,6 +101,6 @@ public class TrafficLight
 	public void GetStateHistory()
 	{
 		Console.Write("State History: ");
-		Console.WriteLine("[{0}]", string.Join(", ", _stateHistory.Reverse()));
+		Console.WriteLine("[{0}]", string.Join(" -> ", _stateHistory.Reverse()));
 	}
 }

@@ -57,3 +57,5 @@ void SingletonPattern()
 	if (singleton1 == singleton2) Console.WriteLine("Singleton works, both vairables contain the same instance.");
 	else Console.WriteLine("Singleton failed, variables contain different instances.");
 }
+
+StatePattern();
